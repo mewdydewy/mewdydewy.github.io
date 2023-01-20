@@ -1,0 +1,144 @@
+/* is this how a comment works? ok cool */
+
+/*
+
+each character should have their own font
+
+>NARRATION: monospace "typewriter" font, such that it looks like a memo
+>ALL IMPORTANT INFORMATION HAS THE COLOR RED RESERVED FOR IT! COLOR IS RESERVED FOR IMPORANT INFO
+>arty and ray's could be similar for character reasons, both handwritten?
+
+mc, clarisse = you!
+
+*/
+
+/* website converts one font format to others: www.fontsquirrel.com/fontface/generator */
+body {
+	font-family: GNUTypewriter, Courier, monospace;
+	background-color: BLACK;
+	color: WHITE;	
+	text-align: justify;
+}
+
+button{
+	color: RED;
+	size: 300%;
+}
+
+
+a {
+	text-decoration: none;
+}
+
+p {
+	font-style: bold;
+}
+
+@font-face {
+	font-family: 'GNUTypewriter';
+	src: url('FONT_BRAINZ/gtw.otf');
+		 /*url('FONT_BRAINZ/gtw.ttf') format('ttf');*/
+}
+
+#mainTitle{
+	text-decoration: blink;
+	font-family: GNUTypewriter, Courier, monospace;
+	text-align: center;
+	font-size: 450%;
+}
+
+#mainSubTitle{
+	font-family: GNUTypewriter, Courier, monospace;
+	text-align: center;
+	font-size: 225%;
+}
+#start {
+	color: RED;
+	size: 300%;
+	text-align: center;
+}
+
+#fakey{
+	/*color: GREEN;*/
+}
+
+#run {
+	font-size: 400%;
+}
+
+.important {
+	color: RED;
+	font-style: bold;
+}
+.arty{
+	font-family: monospace;
+}
+
+.artyRef{
+	color: ORANGE;
+}
+
+.ray{
+	font-family: monospace;
+}
+
+.rayRef{
+	color: PURPLE;
+}
+
+/*for canonical reasons, the MC is clarisse. however! for the CYOA, it is YOU*/
+
+.youRef{
+	color: rgb(125, 100, 255);
+	font-family: Helvetica, sans-serif;
+}
+
+.date {
+	font-family: GNUTypewriter, Courier, monospace;
+	font-size: 300%;
+}
+
+.creepy {
+	font-family: GNUTypewriter, Courier, monospace;
+}
+
+.choice {
+	color: rgb(0, 0, 255);
+}
+
+.school {
+	background-color: rgb(255, 200, 200); /* rose */
+	font-family: Courier, monospace;
+	color: red;
+	
+}
+
+.woods {
+	background-color: rgb(125, 255, 175); 
+	font-family: Courier, monospace;
+	color: rgb(120, 70, 50);
+	
+}
+
+.woodsChoice {
+	color: rgb(150, 30, 50); /* cherry */
+}
+
+.casaRay {
+	background-color: rgb(190, 115, 10); 
+	font-family: Courier, monospace;
+	color: black;
+	
+}
+
+.finalChoice {
+	font-size: 125%;
+	color: white;
+}
+.continue{
+	
+}
+
+.song {
+	text-align: center;
+}
